@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .bg1 {
+        height: 30vh;
+        background: #2A7B9B;
+        background: linear-gradient(193deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+        padding: 50px 30px;
+        margin-bottom: 50px;
+    }
+
+    .bg2 {
+        height: 30vh;
+        background: url(https://plus.unsplash.com/premium_photo-1673292293042-cafd9c8a3ab3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJlfGVufDB8fDB8fHww);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 900px;
+        margin-bottom: 50px;
+    }
+
+    .bg3 {
+        height: 100vh;
+        width: 100%;
+        background: url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 900px;
+        margin-bottom: 50px;
+    }
+
+    .bg4 {
+        background: url(https://www.w3schools.com/howto/img_parallax.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    .btn-wrap {
+        position: absolute;
+        top: 50%;
+        left:800px;
+    }
+
+    .btn {
+        color: #fff;
+        background-color: #111;
+        border: none;
+        padding: 20px;
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
+
+    .bg5 {
+        background-color: #fff;
+        /* height: 500px; */
+        /* width: 100%; */
+        padding: 50px;
+    }
+
+    .bg6 {
+        background-image: url(https://www.w3schools.com/howto/img_parallax2.jpg);
+        background-attachment: fixed;
+        height: 50vh;
+        position: relative;
+
+    }
+
+    .less-height-btn-wrap {
+        position: absolute;
+        top: 200px;
+          left:800px;
+    }
+
+    .less-btn {
+        background: none;
+        border: none;
+        font-size: 25px;
+        letter-spacing: 8px;
+        color: #fff;
+    }
+
+    .bg7 {
+        background-color: #282E34;
+        color: #ddd;
+        padding: 70px;
+    }
+
+    .bg8 {
+        background-image: url(https://www.w3schools.com/howto/img_parallax3.jpg);
+        height: 50vh;
+        width: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative
+    }
+
+    .scroll-height-btn-wrap {
+        position: absolute;
+        top: 50%;
+        left:800px;
+    }
+
+    .scroll-btn {
+        color: #fff;
+        background: none;
+        border: none;
+        font-size: 25px;
+        letter-spacing: 10px;
+        font-weight: 100;
+    }
+</style>
+
+<body>
+
+    <div class="bg1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eaque quasi nostrum quo alias odio suscipit quia
+        quis perspiciatis mollitia saepe atque deleniti est, sint labore explicabo! Hic, consectetur ea?
+    </div>
+    <div class="bg2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eaque quasi nostrum quo alias odio suscipit quia
+        quis perspiciatis mollitia saepe atque deleniti est, sint labore explicabo! Hic, consectetur ea?
+    </div>
+    <div class="bg3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eaque quasi nostrum quo alias odio suscipit quia
+        quis perspiciatis mollitia saepe atque deleniti est, sint labore explicabo! Hic, consectetur ea?
+    </div>
+
+
+    <div class="bg4">
+        <div align="center" class="btn-wrap">
+            <button class="btn">SCROLL DOWN</button>
+        </div>
+    </div>
+    <div class="bg5">
+        <h2
+            style="text-align: center;margin-bottom: 20px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+            Parallax Demo</h2>
+        Parallax scrolling is a web site trend where the background content is moved at a different speed than the
+        foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed
+        posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit
+        dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam
+        pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum
+        at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate
+        at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis
+        ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor
+        placerat leo.
+    </div>
+    <div class="bg6">
+        <div align="center" class="less-height-btn-wrap">
+            <button class="less-btn">LESS HEIGHT</button>
+        </div>
+    </div>
+    <div class="bg7">
+        <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+    </div>
+    <div class="bg8">
+        <div align="center" class="scroll-height-btn-wrap">
+            <button class="scroll-btn">SCROLL UP</button>
+        </div>
+    </div>
+    <div class="bg7">
+        <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+    </div>
+    <div class="bg4">
+        <div align="center" class="btn-wrap">
+            <button class="btn">COOL!</button>
+        </div>
+    </div>
+</body>
+
+</html>
