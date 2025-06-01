@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POSITION</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        height: 600px;
+        width: 600px;
+        background-color: brown;
+        margin-left: 40px;
+        margin-top: 50px;
+        position: relative;
+      }
+
+      .box-1 {
+        height: 500px;
+        width: 500px;
+        background-color: rgb(199, 126, 126);
+        position: absolute;
+        bottom: -67px;
+        right: -67px;
+      }
+
+      .box-2 {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(72, 220, 92);
+        position: absolute;
+        bottom: -69px;
+        right: -76px;
+      }
+
+      .box-3 {
+        height: 300px;
+        width: 300px;
+        background-color: rgb(218 216 101);
+        position: absolute;
+        bottom: -69px;
+        right: -76px;
+      }
+      .box-4 {
+        height: 200px;
+        width: 200px;
+        background-color: rgb(244 154 236);
+        position: absolute;
+        bottom: -54px;
+        right: -76px;
+      }
+      .box-5 {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(124 159 223);
+        position: absolute;
+        bottom: -23px;
+        right: -45px;
+      }
+
+      .other {
+        border: 2px solid rebeccapurple;
+        margin: 500px;
+        background-color: chartreuse;
+        height: 500px;
+        width: 500px;
+        position: relative;
+      }
+      .one {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        background-color: rgb(39, 20, 123);
+        top: -66px;
+        left: -72px;
+        z-index: -1;
+      }
+      .two {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        background-color: rgb(183, 109, 31);
+        top: -119px;
+        left: -130px;
+        z-index: -2;
+      }
+      .three {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: #e767e4;
+        top: -162px;
+        left: -175px;
+        z-index: -3;
+      }
+      .four {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        background-color: #e767e4;
+        right: -84px;
+        bottom: -77px;
+        z-index: -1;
+      }
+      .five {
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        background-color: rgb(39, 20, 123);
+        right: -168px;
+        bottom: -157px;
+        z-index: -2;
+      }
+      .six {
+        height: 100px;
+        width: 100px;
+        background-color: rgb(183, 109, 31);
+        position: absolute;
+        bottom: -210px;
+        right: -225px;
+        z-index: -3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-1">
+        <div class="box-2">
+          <div class="box-3">
+            <div class="box-4">
+              <div class="box-5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="other">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+      <div class="four"></div>
+      <div class="five"></div>
+      <div class="six"></div>
+    </div>
+  </body>
+</html>
